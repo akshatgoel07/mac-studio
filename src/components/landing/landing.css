@@ -1,6 +1,10 @@
+.one{
+    height: 842px;
+    overflow: hidden;
+}
 .header-text{
+    background-color: #F1ECE8;
     position: relative;
-    height: 80vh;
 }
 .header-text-content{
     text-align: center;
@@ -8,7 +12,6 @@
     left: 50%;
     top: 35%;
     transform: translate(-50%, -50%);
-
     font-size: 96px;
     line-height: 85px;
     width: 70%;
@@ -35,5 +38,38 @@
     font-size: 80px;
     font-family: Archivo;
     font-style: italic;
-    background-color: transparent; 
+    background-color: transparent;
 }
+
+.digital-visions{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    /* height: 935px; */
+
+    background-color: #292929;
+    color: white;
+}
+
+.digital-visions-heading{
+    width: 90%;
+    font-size: 96px;
+    line-height: 85px;
+    color: #F1ECE8;
+    font-weight: 500;
+    background-color: transparent;
+    margin-left: 60px;
+    margin-top: 80px;
+}   
+.digital-visions-text{
+    font-family: Archivo;
+    color: #F1ECE8;
+    background-color: transparent;
+    font-size: 38px;
+    justify-content: right;
+    width: 90%;
+    margin-top: 600px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+

@@ -1,0 +1,27 @@
+.footer {
+    font-size: 30px;
+    height: 600px;
+    background-color: #F1ECE8; 
+    color: #292929;
+}
+.left-section {
+    margin-top: 60px; 
+    margin-left: 80px;
+}
+
+.email-text {
+    
+}
+
+input[type="email"] {
+
+}
+
+.right-section {
+    margin-left: 1250px;
+}
+
+.contact-us,
+.visit-us {
+    
+}
