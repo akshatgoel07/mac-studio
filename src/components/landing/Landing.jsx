@@ -6,9 +6,6 @@ import AnimatedSvg from './AnimatedSVG'
 const Landing = () => {
 	return (
 		<div>
-            <div className="logo">
-                {/* <Logo /> */}
-            </div>
 			<div className="one">
 			<div className="header-text">
 				<div className="header-text-content">
