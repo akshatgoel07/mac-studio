@@ -1,27 +1,56 @@
 .footer {
+    margin-top: 50px;
+    overflow: hidden;
     font-size: 30px;
     height: 600px;
-    background-color: #F1ECE8; 
+    background-color: #F1ECE8;
     color: #292929;
-}
-.left-section {
-    margin-top: 60px; 
-    margin-left: 80px;
+    position: relative;
 }
 
-.email-text {
-    
+.email-text_detail {
+    font-size: 20px;
+    font-weight: 400;
+    width: 55%;
+
 }
 
-input[type="email"] {
+.visit-us_subtext {
+    font-size: 20px;
+    font-weight: 400;
+}
 
+.sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 400px;
 }
 
 .right-section {
-    margin-left: 1250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 70px;
+    margin-right: 70px;
 }
 
-.contact-us,
-.visit-us {
-    
+.left-section {
+    margin-left: 70px;
+}
+
+.background {
+    align-items: center;
+    z-index: 1;
+}
+
+.pvt-ltd {
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin-right: 70px;
+    margin-bottom: 70px;
+    background-color: transparent;
 }

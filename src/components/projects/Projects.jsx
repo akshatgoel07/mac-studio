@@ -11,7 +11,7 @@ const Projects = () => {
     ];
 
     return (
-        <div className="main">
+        <div className="top">
         <div className="projects-grid">
             <div className="project-row">
                 <div className="project-item">

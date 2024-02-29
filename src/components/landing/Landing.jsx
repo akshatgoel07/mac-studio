@@ -3,9 +3,11 @@ import "./landing.css";
 import { ReactComponent as BackgroundM } from "../../assets/lemonM.svg";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
 import AnimatedSvg from './AnimatedSVG'
+import Navbar from '../Navbar/Navbar'
 const Landing = () => {
 	return (
 		<div>
+			<Navbar />
 			<div className="one">
 			<div className="header-text">
 				<div className="header-text-content">
@@ -23,7 +25,8 @@ const Landing = () => {
 
 				<div className="digital-visions">
 					<div className="digital-visions-heading">
-					From design to deployment we thrive on bringing digital visions to life.
+					From design to deployment<span className="digital-visions-heading_subtext"> we thrive on bringing <span className="digital-visions_subtext"> digital visions</span> to life.
+					</span>
 				</div>
 					<div className="digital-visions-text">
 					Software development as a craft is transformative and influential. It resonates with users on a profound level and ignites innovation. A well-crafted software solution can reshape perspectives, drive change, and revolutionize industries.

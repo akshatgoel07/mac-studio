@@ -6,7 +6,7 @@ import Navbar from './components/Navbar/Navbar'
 function App() {
   return (
     <div >
-      <Navbar />
+      {/* <Navbar /> */}
       <Landing />
       <Projects 
       />
