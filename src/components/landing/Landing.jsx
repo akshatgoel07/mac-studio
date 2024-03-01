@@ -6,18 +6,17 @@ import AnimatedSvg from './AnimatedSVG'
 import Navbar from '../Navbar/Navbar'
 const Landing = () => {
 	return (
-		<div>
-			<Navbar />
+		<div >
+			{/* <Navbar /> */}
 			<div className="one">
 			<div className="header-text">
+					
 				<div className="header-text-content">
 					We craft dynamic <span className="header-text-content-font">softwares & solutions</span> for businesses,
 					agencies, and organizations
 				</div>
-				{/* <div className="background-img"> */}
-					<BackgroundM />
-                    {/* <AnimatedSvg /> */} 
-				{/* </div> */}
+				{/* <BackgroundM /> */}
+                    {/* <AnimatedSvg />  */}
 				
 				</div>
 			</div>

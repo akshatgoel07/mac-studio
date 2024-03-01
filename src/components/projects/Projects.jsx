@@ -1,13 +1,16 @@
 import React from "react";
-import "./Projects.css"; // You'll create this CSS file for styling
-import project1Image from '../../assets/buzz.jpg'
+import "./Projects.css";
+import project1Image from '../../assets/buzz.png'
+import projectImage2 from '../../assets/django.png'
+import projectImage3 from '../../assets/phd.png'
+import projectImage4 from '../../assets/codeops.png'
 
 const Projects = () => {
     const projectImages = [
-        { src: project1Image, caption: "Project 1" },
-        { src: project1Image, caption: "Project 2" },
-        { src: project1Image, caption: "Project 3" },
-        { src: project1Image, caption: "Project 4" }
+        { src: projectImage4, caption: "CodeOps: Complier Designer" },
+        { src: projectImage2, caption: "Django Automation Software" },
+        { src: projectImage3, caption: "Univeristy PHD Program WebApp" },
+        { src: project1Image, caption: "Buzz" }
     ];
 
     return (

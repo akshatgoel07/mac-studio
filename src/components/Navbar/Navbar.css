@@ -4,6 +4,6 @@
         justify-content: space-between;
         gap: 400px;
         padding: 5%;
-        z-index: 5;
-        background-color: #F1ECE8;
+        z-index: 0;
+        background-color: transparent;
     }

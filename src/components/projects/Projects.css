@@ -1,6 +1,7 @@
 .top{
     width: 100%;
-    background-color: #292929;
+    margin-top: 80px;
+    background-color: transparent;
 
 }
 .projects-grid {
@@ -20,25 +21,23 @@
 .project-item {
     background-color: #292929;
     flex: 1;
-    max-width: 475px;
+    width: 650px;
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    margin-left: 80px; /* Add space between left and right photos */
-    margin-right: 80px; /* Add space between left and right photos */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px; /* Add space between left and right photos */
+    margin-right: 40px; /* Add space between left and right photos */
 }
 
 .project-item img {
-    
     width: 100%;
     height: auto;
     object-fit: cover;
 }
 
 .caption {
-    font-size: 28px;
+    font-size: 48px;
     background-color: #292929;
     color: #fff;
-    padding: 10px;
-    text-align: center;
+    text-align: left;
 }
