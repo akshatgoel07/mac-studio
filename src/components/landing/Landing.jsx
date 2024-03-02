@@ -1,14 +1,15 @@
 import React from "react";
 import "./landing.css";
-import { ReactComponent as BackgroundM } from "../../assets/lemonM.svg";
+import backgroundSVG from "../../assets/lemonM.svg";
 import { ReactComponent as Logo } from "../../assets/logo.svg";
 import AnimatedSvg from './AnimatedSVG'
 import Navbar from '../Navbar/Navbar'
 const Landing = () => {
 	return (
 		<div >
-			{/* <Navbar /> */}
-			<div className="one">
+			<div className="one" style={{ backgroundImage: `url(${backgroundSVG})`}}>
+			
+			<Navbar />
 			<div className="header-text">
 					
 				<div className="header-text-content">

@@ -1,23 +1,27 @@
 .one{
     height: 842px;
     overflow: hidden;
-    
+    position: relative;
+ background-color: #F1ECE8;
 }
 
 .header-text{
     background-color: #F1ECE8;
-    position: relative;
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+
 }
 
 .header-text-content{
     text-align: center;
     position: absolute;
-    left: 50%;
-    top: 10%;
-    transform: translate(-50%, -50%);
+    
     font-size: 96px;
     line-height: 85px;
-    width: 70%;
+
     font-weight: 500;
     background-color: transparent; 
     z-index: 2;
