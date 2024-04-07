@@ -1,8 +1,6 @@
 import React from "react";
 import "./landing.css";
 import backgroundSVG from "../../assets/lemonM.svg";
-import { ReactComponent as Logo } from "../../assets/logo.svg";
-import AnimatedSvg from './AnimatedSVG'
 import Navbar from '../Navbar/Navbar'
 const Landing = () => {
 	return (
@@ -16,8 +14,6 @@ const Landing = () => {
 					We craft dynamic <span className="header-text-content-font">softwares & solutions</span> for businesses,
 					agencies, and organizations
 				</div>
-				{/* <BackgroundM /> */}
-                    {/* <AnimatedSvg />  */}
 				
 				</div>
 			</div>
